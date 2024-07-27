@@ -23,7 +23,7 @@ function App() {
         <Card
           pic={pic}
           key={pic}
-          i={index}
+          index={i}
           expend={expend}
           setExpend={setExpend}
         />
