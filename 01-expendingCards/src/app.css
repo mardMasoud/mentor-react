@@ -5,25 +5,29 @@
   /* border-radius: 15px; */
   display: flex;
   gap: 5px;
-  padding: 5px;
+  /* padding: 5px; */
 }
 .container div {
   border-radius: 30px;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   height: 80vh;
   /* flex-grow: 0.5; */
-  flex-shrink: 0.5;
+  /* flex-basis: 10%; */
 }
 .close {
-  width: 5%;
-  transition: all 0.5s ease-in;
+  /* width: 5%; */
+  transition: flex 0.3s ease-in;
+  opacity: 0.3;
+  flex-grow: 0.5;
 }
 
 .open {
-  width: 80%;
-  transition: all 0.5s ease-in;
+  /* width: 80%; */
+  flex-grow: 5;
+  /* transition: flex 0.3s ease-in; */
+  transition: opacity 0.3s ease-in;
 }
 
 body {
